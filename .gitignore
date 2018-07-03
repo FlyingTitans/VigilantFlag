@@ -1,0 +1,82 @@
+############
+# .gitignore
+############
+
+########################################
+# Project files
+
+var
+tmp
+
+########################################
+# OS Files
+
+*~
+.\#*
+.*.swp
+.DS_Store
+.Trashes
+*.swp
+*.lock
+**/log/
+
+
+########################################
+# Specific files & directories
+
+.cache
+.coverage
+htmlcov
+
+
+########################################
+# Python Patterns
+
+build/
+dist/
+.eggs
+*.egg-info
+*.pyc
+*.pyo
+*.log
+*.orig
+.pycache
+.pytest_cache
+.ropeproject
+.venv
+VENV
+
+
+########################################
+# Xcode Files
+
+*~.nib
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+xcuserdata
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+**/*.trace/Trace*.run
+**/*.trace/instrument_data/**/*
+**/*.trace/shared_data/**/*
+Pods
+Podfile.lock
+
+
+########################################
+# Regular expression patterns
+
+var/translate_export/
+var/translate_import/
+var/translate_strings/
+var/translate_db/
+var/LCOV_*.url
+
+
